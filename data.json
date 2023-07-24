@@ -1,0 +1,87 @@
+[
+    {
+      "nombre": "Andes",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 5,
+      "cantidadConsumida": 3
+    },
+    {
+      "nombre": "Andes-ipa",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 10,
+      "cantidadConsumida": 5
+    },
+    {
+      "nombre": "Andes-lager",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 8,
+      "cantidadConsumida": 2
+    },
+    {
+      "nombre": "Andes-roja",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 15,
+      "cantidadConsumida": 10
+    },
+    {
+      "nombre": "Brahma",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 12,
+      "cantidadConsumida": 6
+    },
+    {
+      "nombre": "Corona",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 3,
+      "cantidadConsumida": 2
+    },
+    {
+      "nombre": "Grolsch",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 7,
+      "cantidadConsumida": 4
+    },
+    {
+      "nombre": "Heineken",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 10,
+      "cantidadConsumida": 15
+    },
+    {
+      "nombre": "Imperial-ipa",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 10,
+      "cantidadConsumida": 8
+    },
+    {
+      "nombre": "Miller",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 18,
+      "cantidadConsumida": 12
+    },
+    {
+      "nombre": "Quilmes-rubia",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 6,
+      "cantidadConsumida": 4
+    },
+    {
+      "nombre": "Quilmes-stout",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 6,
+      "cantidadConsumida": 2
+    },
+    {
+      "nombre": "Schneider",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 20,
+      "cantidadConsumida": 4
+    },
+    {
+      "nombre": "Stella-artois",
+      "cantidadDisponible": 30,
+      "cantidadVendida": 6,
+      "cantidadConsumida": 8
+    }
+  ]
+  

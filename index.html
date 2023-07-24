@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Stock de Cerveza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <h1>Calculadora de Stock de Cerveza</h1>
+
+    <div id="formulario">
+        <select id="nombreCerveza">
+          <option value="" disabled selected>Seleccione una cerveza</option>
+          <option value="Andes">Andes</option>
+          <option value="Andes-ipa">Andes-ipa</option>
+          <option value="Andes-lager">Andes-lager</option>
+          <option value="Andes-roja">Andes-roja</option>
+          <option value="Brahma">Brahma</option>
+          <option value="Corona">Corona</option>
+          <option value="Grolsch">Grolsch</option>
+          <option value="Heineken">Heineken</option>
+          <option value="Imperial">Imperial</option>
+          <option value="Miller">Miller</option>
+          <option value="Quilmes-rubia">Quilmes-rubia</option>
+          <option value="Quilmes-stout">Quilmes-stout</option>
+          <option value="Schneider">Schneider</option>
+          <option value="Stella-artois">Stella-artois</option>
+        </select>
+        <input type="number" id="cantidadDisponible" placeholder="Ingrese la cantidad disponible" min="0">
+        <input type="number" id="cantidadVendida" placeholder="Ingrese la cantidad vendida" min="0">
+        <input type="number" id="cantidadConsumida" placeholder="Ingrese la cantidad consumida" min="0">
+        <button id="agregarCerveza" disabled>Calcular Cerveza</button>
+    </div>
+
+    <h2>Stock de cervezas</h2>
+    <div id="cervezasContainer"></div>
+
+    <div id="mensaje"></div>
+
+    <script src="./code/index.js"></script>
+</body>
+</html>
